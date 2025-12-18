@@ -3,7 +3,7 @@ import type { Route } from "./+types/home";
 import { resumes } from "constants/index";
 import ResumeCard from "~/components/ResumeCard";
 import { useNavigate } from "react-router";
-import { usePuterStore } from "~/lib/utils/puter";
+import { usePuterStore } from "~/lib/puter";
 import { useEffect } from "react";
 
 export function meta({}: Route.MetaArgs) {
